@@ -7,7 +7,7 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
-toilet -f big -F gay FATHAN
+toilet -f big -F gay nama kamu
 echo $red"selamat datang"
 echo
 sleep 2
@@ -18,21 +18,21 @@ echo
 echo $red"[3]"$green"Keluar Saja"
 echo
 echo $white
-read -p "Pilihan FATHAN : " bro
+read -p "Pilihan nama kamu : " bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
 clear
-toilet -f big -F gay FATHAN
-echo $yellow"Stabilkan Jaringan By FATHAN"
+toilet -f big -F gay nama kamu
+echo $yellow"Stabilkan Jaringan By nama kamu"
 sleep 2
 ping -s1000 1.1.1.1
 fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
-toilet -f big -F gay FATHAN
-echo $yellow"Cek IP Adrees By FATHAN"
+toilet -f big -F gay nama kamu
+echo $yellow"Cek IP Adrees By nama kamu"
 sleep 3
 ifconfig
 fi
@@ -42,7 +42,7 @@ then
 clear
 echo $yellow
 figlet "Bye Bye"
-echo $green"FATHAN AL PATHIR"
+echo $green"nama kamu"
 sleep 4
 exit
 fi
